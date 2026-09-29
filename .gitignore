@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+## --- ENTORNOS VIRTUALES ---
+venv/
+env/
+ENV/
+.env
+
+# --- BASE DE DATOS Y DATOS LOCALES (SQLite)---
+*.db
+*.sqlite
+*.sqlite3
+test.db
+
+# --- IDEs y Editores ---
+.idea/
+.vscode/
+*.swp
+*.iml
+.history/
+
+# --- pruebas de cobertura de código ---
+.pytest_cache/
+.coverge
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- Sistema operativo ---
+.DS_Store
+.DS_Store?
+._*
+.spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
